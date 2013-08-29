@@ -1,0 +1,90 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import "bootstrap";
+@import "bootstrap-responsive";
+
+body{
+	background-color: transparent;
+	height: 100%;
+    margin-top: 40px;
+}
+
+#home{
+ background: url("rafF.png") no-repeat center center fixed;
+ background-position: top;
+-webkit-background-size: cover; 
+-moz-background-size: cover; 
+-ms-background-size: cover; 
+-o-background-size: cover; 
+background-size: 100%;
+min-height: 100%;
+color :white;
+box-shadow: 0px 1px 10px 5px rgba(221,221,221,1);
+-webkit-box-shadow: 0px 1px 10px 5px rgba(221,221,221,1);
+}
+
+html{
+	height:50%;
+}
+
+#arrow{
+	margin-top: -58px;
+	text-align: center;
+	  }
+
+#icone{
+	
+
+	margin-top: 80px;
+}
+#text1{
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+
+}
+
+#blank_spot{
+	height: 100px;
+}
+
+footer{
+	background: url("footer.jpg") repeat;
+	height :200px;
+}
+#logo{
+	text-align: center;
+	margin-top: 70px;
+	
+
+}
+
+#home_heroUnit{
+ margin-top: 70px;
+ background-color: rgba(23, 17, 36, 0.5);
+ text-align: center;
+}
+
+#logo1{
+	text-align: center;
+}
+
+.navbar .container { 
+	height: 5em; 
+
+}
+.navbar .container .brand{
+	padding-top: 25px;
+}
+.navbar .container .nav{
+	padding-top: 17px;
+}
+
+#line{
+	background: 
+	url("orange.png") repeat center center fixed;
+	height :10px;
+	margin-top:0px;
+	width: 100%;
+}
