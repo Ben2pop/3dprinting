@@ -1,4 +1,7 @@
 Printing3d::Application.routes.draw do
+  resources :articles
+
+
   get "pages/home"
 
   # The priority is based upon order of creation:
