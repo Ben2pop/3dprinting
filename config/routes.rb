@@ -2,7 +2,7 @@ Printing3d::Application.routes.draw do
   resources :articles
 
 
-  get "pages/home"
+  
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
@@ -53,7 +53,7 @@ Printing3d::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  root :to => 'Pages#home'
+  root :to => 'Articles#index'
 
   # See how all your routes lay out with "rake routes"
 
